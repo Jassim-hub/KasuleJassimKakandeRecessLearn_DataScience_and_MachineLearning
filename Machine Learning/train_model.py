@@ -2,8 +2,8 @@
 # tensorflow,numpy,matplotlib
 import os
 import numpy as np
-import tensorflow as tf  # For building and training deep learning model
-from tensorflow import keras  # -High level API for neural networks
+import tensorflow as tf  # type: ignore # For building and training deep learning model
+from tensorflow import keras  # type: ignore # -High level API for neural networks
 from tensorflow.keras.processing.image import ImageDataGenerator  # type: ignore
 from tensorflow.keras.models import sequential  # type: ignore #Linear Stack of neural Networks
 from tensorflow.keras.layers import Conv2D, MaxPooling2D, Flattern, Dense, Dropout  # type: ignore

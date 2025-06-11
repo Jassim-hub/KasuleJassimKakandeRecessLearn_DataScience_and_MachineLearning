@@ -12,3 +12,5 @@ __pycache__/
 # Ignore OS files
 .DS_Store
 Thumbs.db
+#Ignore model
+jassim_model.h5

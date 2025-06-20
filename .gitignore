@@ -14,3 +14,4 @@ __pycache__/
 Thumbs.db
 #Ignore model
 jassim_model.h5
+churn_model.h5
